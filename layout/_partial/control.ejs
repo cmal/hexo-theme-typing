@@ -5,5 +5,14 @@
       $('.hide-note').toggleClass('hide-active');
       $('note').toggle();
     });
+    $('link').each(function(index, item) {
+      if ($(item).attr('href') == '/css/typing.css') {
+        $(item).attr('href', '/Tzu-chih-Tung-chien/css/typing.css');
+      }
+    });
+    $('script').each(function(index, item) {
+      if ($(item).attr('src') == '/js/typing.js') {
+        $(item).attr('src', '/Tzu-chih-Tung-chien/js/typing.css');
+    });
   });
 </script>
