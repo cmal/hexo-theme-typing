@@ -1,5 +1,5 @@
 # Lang
-language: en
+language: zh-CN
 
 # Header
 menu:
@@ -22,15 +22,11 @@ fb_app_id:
 
 
 # Profile
-nickname: NickName
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae [libero pharetra](http://hexo.io) adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam.
+nickname: 以经评史
+description: <p>子曰：学而不思则罔，思而不学则怠。我今年三十有四，七岁入学，二十七岁毕业，学习二十年，工作七年。近年来每受挫折，回顾往昔，亦罔过，亦怠过。遂知学与思需并行不怠。</p><p>前些年因历了一些事，心甚惑难解，求于书、求于人，均未得。每求之于己而付诸行动之时，心却不甚惑，遂知行动之有益，而思想却有碍于行动。求道于师，师曰：行有不得，求诸己。初则读了凡四训，闲则读阳明，不离道德经。</p>近来遵照老师的教诲，习读道德经，似有所悟。但每遇事则忘之。才知笃行之艰难。又偶读君主论，觉其论断离世俗之心甚近而离老子之道甚远，故惶惑不知所从，欲求甚解。因深感人生之短暂，而来日又方长，此生可畏，应恭谨对待，务需立即学习、立即行动，而长远安身立命之道又需独自以悟，物或由难而易或由易而难，故从京东买来资治通鉴，欲研读之并对照以往读过的书册，以史为鉴，总结自己的心得。</p><p>道德经说以正治国，大学说格物、致知、诚意、正心、修身、齐家、治国、平天下。欲修其身者，先正其心；欲正其心者，先诚其意；欲诚其意者，先致其知；致知在格物。</p><p>我以前只对自然科学感兴趣却忽视了人文科学的修养，心不正而身不修，故至屡犯错误，行愈艰难。愿从此学过则立改之。</p><p>愿资治通鉴能带我格物致知，并与所有同此道的朋友们，一起诚意、正心和修身。也希望我未来的孩子能从中学到，早日明理正身。</p><p>初步的打算是将资治通鉴中的史实，拿来与道德经，或者其他我读过或将会读到的书籍对照，每篇文章引用一段史实，再引用一段论断，将史实与论断结合，作为修身治事做人的指导。知大家时间有限，有兴趣者必会通过其他途径详读，我只需点到即止。这样我不会花很多时间，不求名利，望能坚持到底，多学多用。但难免参杂个人观点，望读之者慎思之，明辨之，笃行之。</p><p>首页即见司马光称臣，便感谢当今，令我有机会拜读这恭谨严整，心诚意重的帝王之书，怎敢不毕恭毕敬，每读必先洗其手，沉心静气，膜拜之，才作翻阅。</p>
 links:
-  Blog: /archives
+  博客: /archives
   GitHub: https://github.com/
-  Instagram: http://instagram.com/
-  Facebook: http://facebook.com/
-  Twitter : http://twitter.com/
-
 
 # Info
 archive_footer_content: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Fusce eget urna vitae velit *eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque* penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Archive

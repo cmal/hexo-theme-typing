@@ -10,7 +10,7 @@ $grey-bold: #777;
 $grey-light: #cacdd0;
 $scooter: #22C5E5;
 
-$content-width: 60%;
+$content-width: 90%;
 
 
 @define-extend a-hover {
@@ -39,6 +39,7 @@ body {
   height: 100%;
   position: relative;
   box-sizing: border-box;
+  background-color: #F9F9F5;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -96,6 +97,8 @@ em {
 
 .container {
   width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .copyright, .footer-content {
@@ -122,23 +125,26 @@ em {
 
 
 .home-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
 }
 
 .home {
   font-weight: lighter;
   color: $black-normal;
   line-height: 1.4;
-  text-align: center;
+  text-indent: 2rem;
+  /* text-align: center; */
   position: relative;
 
   .content {
     width: $content-width;
-    max-width: 500px;
     position: relative;
     margin: 0 auto;
+    p {
+      margin-top: 10px;
+    }
   }
 
   h1,
@@ -169,8 +175,10 @@ em {
     padding: 0;
     text-align: center;
     li {
-      display: inline-block;
+      display: inline;
       margin: 0 5px;
+      text-align: center;
+      list-style: none;
     }
   }
 }
@@ -624,7 +632,7 @@ pre {
 }
 
 @media (max-width: 320px) {
-  $mobile-content-width: 80%;
+  $mobile-content-width: 90%;
 
   body {
     font-size: 14px;
@@ -664,4 +672,19 @@ pre {
   .comments {
     width: $mobile-content-width;
   }
+}
+
+code {
+  background-color: #ededed;
+  color: #6666dd;
+}
+
+note {
+  background-color: #FEFBD2;
+  color: #FA5C5C;
+  border: 1px solid #FA5C5C;
+}
+
+q {
+  font-size: 80%;
 }
