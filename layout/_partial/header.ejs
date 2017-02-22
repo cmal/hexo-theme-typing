@@ -3,6 +3,7 @@
     <% for (var i in theme.menu){ %>
       <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
     <% } %>
+    <%- partial('_partial/hide-note-button') %>
   </nav>
   <nav id="sub-nav">
     <% if (theme.rss){ %>

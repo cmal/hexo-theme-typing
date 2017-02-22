@@ -688,3 +688,15 @@ note {
 q {
   font-size: 80%;
 }
+
+.hide-note {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #999;
+  float: right;
+}
+
+.hide-active {
+  background-color: #ccc;
+}
