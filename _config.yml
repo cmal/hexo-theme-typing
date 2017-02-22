@@ -3,9 +3,9 @@ language: zh-CN
 
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  首页: /
+  归档: /archives
+  关于: /about
 rss: /atom.xml
 
 # Content
